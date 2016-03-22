@@ -1,4 +1,4 @@
-
+# Josh Bosley
 # raise r3 to r4, result in r5
 pwri:
         lda r6, $1
