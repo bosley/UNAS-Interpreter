@@ -1,0 +1,28 @@
+// Josh Bosley
+// New UNAS BASIC
+// EXAMPLE PROGRAM : Area of a triangle
+
+LET nl = "\n"
+
+LET height = 0
+LET base = 0
+
+PRINT "Height: "
+READ height
+
+PRINT nl
+
+PRINT "Base: "
+READ base
+
+LET A = height * base / 2
+
+PRINT nl
+
+PRINT "Area of your triangle is : "
+PRINT A
+
+PRINT nl
+PRINT nl
+
+END

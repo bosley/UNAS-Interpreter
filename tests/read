@@ -1,0 +1,21 @@
+LET nl = "\n"
+
+PRINT "Input an int : " 
+LET A = 1
+READ A
+PRINT A
+PRINT nl
+
+//PRINT "Input a str : "
+//LET B = ""
+//READ B
+//PRINT B 
+//PRINT nl
+
+PRINT "Input a float : "
+LET C = 0.0
+READ C
+PRINT C
+PRINT nl
+
+END

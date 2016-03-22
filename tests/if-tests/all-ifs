@@ -1,0 +1,28 @@
+//	Josh A. Bosley 
+//	Example of valid, but not necessarly true if statements
+//	CS415 NEW UNAS BASIC
+
+IF A > B THEN 10
+IF A > 1 THEM 10
+IF 1 > B THEN 10
+IF 1 > 0 THEN 10
+
+IF A < B THEN 10
+IF A < 1 THEM 10
+IF 1 < B THEN 10
+IF 1 < 0 THEN 10
+
+IF A <= B THEN 10
+IF A <= 1 THEM 10
+IF 1 <= B THEN 10
+IF 1 <= 0 THEN 10
+
+IF A >= B THEN 10
+IF A >= 1 THEM 10
+IF 1 >= B THEN 10
+IF 1 >= 0 THEN 10
+
+
+
+
+

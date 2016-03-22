@@ -1,0 +1,13 @@
+//      Josh A. Bosley
+//      NEW UNAS BASIC
+//      Example program : PRINTING
+
+LET x = "Hello"
+
+LET y = "Josh"
+
+LET z = x + " my name is " + y
+
+PRINT z + "\n"
+
+END

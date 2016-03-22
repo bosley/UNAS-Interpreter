@@ -1,0 +1,23 @@
+//      Josh A. Bosley
+//      NEW UNAS BASIC
+//      Example program : STRINGS
+
+// Create some strings
+LET a = "Some thing not mentioned\n "
+LET b = "\n\nHello World, The"
+LET c = "Awesome!\n\n"
+
+// Set a new var = to a string
+LET d = c
+
+// Create some more strings
+LET e = "CS Profs "
+LET f = "are " 
+
+// Rediculous string statement
+LET g = b + e + f + d
+
+// Show what the string is
+PRINT g
+
+END

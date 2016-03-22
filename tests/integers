@@ -1,0 +1,32 @@
+//      Josh A. Bosley
+//      NEW UNAS BASIC
+//      Example program : INTEGER OPERATONS
+//	Note -	Integers are restricted to a 4 byte size
+
+PRINT "\n[ a eq 1 + 1 ] : "
+LET a = 1 + 1
+PRINT a
+
+PRINT "\n[ b eq a * 4 ] : "
+LET b = a * 4
+PRINT b
+
+PRINT "\n[ c eq b + a ] : "
+LET c = b + a
+PRINT c
+
+PRINT "\n[ c eq (4 * 2) + 22 - b ] : "
+LET c = (4 * 2) + 22 - b
+PRINT c
+
+PRINT "\n[ c eq 20 / (2 + 8) - 2 ] : "
+LET c = 20 / (2 + 8) - 2 
+PRINT c
+
+PRINT "\n[ c eq 2 ^ 10 ] : "
+LET c = 2 ^ 10 
+PRINT c
+
+PRINT "\n\n"
+
+END

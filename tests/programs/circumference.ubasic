@@ -1,0 +1,25 @@
+// Josh Bosley
+// New UNAS BASIC
+// EXAMPLE PROGRAM : Circumference of a circle
+
+LET nl = "\n"
+LET r = 0.0
+LET pi = 3.141592653589793238462643383279502
+
+PRINT nl
+
+PRINT "Please put in a radius : " 
+
+READ r
+
+PRINT nl
+
+LET c = 2 * pi * r
+
+PRINT "Circumference : " 
+PRINT c
+
+PRINT nl
+PRINT nl
+
+END

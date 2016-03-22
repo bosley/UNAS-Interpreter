@@ -1,0 +1,13 @@
+
+# raise r3 to r4, result in r5
+pwri:
+        lda r6, $1
+        lda r5, $1 
+        pwritop:
+                bgt r6, r4, pwribott
+                mul r5, r5, r3
+                add r6, r6, $1
+                jmp pwritop
+        pwribott:
+                ret
+
